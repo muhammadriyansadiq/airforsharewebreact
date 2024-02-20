@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+/* @media(min-width:320px){
+
+  .airforsharelogo{
+display: none;
+  }
+
+  .hamberg{
+    display: block;
+  }
+
+  .navbaritem{
+    display: none;
+  }
+
+}
+
+
+@media(min-width:768px){
+
+  .navbaritem{
+    display: block;
+      }
+    
+      .hamberg{
+        display: none;
+      }
+      
+} */

@@ -1,0 +1,47 @@
+$body-bgcolor: #f4f4f4; 
+
+body{
+background-color: $body-bgcolor;
+}
+.logo{
+    img{
+        cursor: pointer;
+       &:active{
+        opacity: 0.1;
+       } 
+    }
+}
+::-webkit-scrollbar {
+    width: 7px; /* width of the scrollbar */
+    height: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    background: white; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(70, 69, 69); 
+  }
+  .btn:hover{
+// border-color: purple;
+background: -webkit-linear-gradient( #854cff,#5081ff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+border-image: linear-gradient(#854cff, #5081ff) 15;
+border-width: 2px;
+border-style: solid;
+ 
+  }
+
+  // .icon{
+  //   display: flex;
+  // }
+  .parenticon{
+    // justify-content: space-around;
+  }
+
+
